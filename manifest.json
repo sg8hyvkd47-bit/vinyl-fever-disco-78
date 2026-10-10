@@ -11,7 +11,7 @@
   "theme_color": "#10071e",
   "icons": [
     {
-      "src": "bazu-logo.png",
+      "src": "fever-icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
