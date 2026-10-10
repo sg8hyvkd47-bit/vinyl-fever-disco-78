@@ -1,0 +1,20 @@
+{
+  "name": "VINYL FEVER - DISCO '78",
+  "short_name": "VINYL FEVER",
+  "description": "Un gioco arcade musicale retrò ambientato nella disco del 1978, creato da BAZÙ Games.",
+  "id": "/vinyl-fever-disco-78/",
+  "start_url": "/vinyl-fever-disco-78/",
+  "scope": "/vinyl-fever-disco-78/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#10071e",
+  "theme_color": "#10071e",
+  "icons": [
+    {
+      "src": "bazu-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
