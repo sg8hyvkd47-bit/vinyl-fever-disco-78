@@ -429,8 +429,10 @@ function importSave(file){
  const panel=document.createElement('div');panel.id='bazuSavePanel';
  panel.style.cssText='position:fixed;bottom:8px;right:8px;z-index:9999;background:transparent;border:0;border-radius:8px;padding:2px;display:flex;gap:5px;align-items:center;max-width:98vw;box-sizing:border-box;font:11px Arial,sans-serif;color:white';
  panel.innerHTML='<button type="button" id="bazuSaveNow">💾 SALVA</button>';
+ const musicButton=document.getElementById('audioToggle');
+ if(musicButton){panel.insertBefore(musicButton,panel.firstChild);musicButton.style.cssText='position:static;top:auto;right:auto;z-index:auto;margin:0;padding:7px 6px;font-size:10px;line-height:1.2;white-space:nowrap;box-shadow:none;';}
  document.body.appendChild(panel);
- panel.querySelectorAll('button').forEach(b=>b.style.cssText='background:#e3b83c;color:#211400;border:0;border-radius:5px;padding:7px 5px;font-weight:bold;font-size:10px');
+ panel.querySelectorAll('#bazuSaveNow').forEach(b=>b.style.cssText='background:#e3b83c;color:#211400;border:0;border-radius:5px;padding:7px 5px;font-weight:bold;font-size:10px');
  document.getElementById('bazuSaveNow').onclick=manualSave;
  
  
